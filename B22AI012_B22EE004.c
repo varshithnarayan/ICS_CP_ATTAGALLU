@@ -52,6 +52,7 @@ float lev(float a[3][3],float y[3][1],float x[3][1]){
 int main(){
 
     float a[3][3];
+    printf("Enter the elements of matrix :  ");
     for(int i = 0;i<3;i++){
         for(int j = 0;j<3;j++){
             scanf("%f",&a[i][j]);
