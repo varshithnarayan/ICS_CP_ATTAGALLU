@@ -42,7 +42,7 @@ float lev(float a[3][3],float y[3][1],float x[3][1]){
 
         l1 = l2;
 
-        if(error < 0.0001){
+        if(error < 0.001){
             return l1;
         }
         
